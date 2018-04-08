@@ -1,0 +1,19 @@
+.ion-ios-discover:before { content: url("../assets/fonts/discover.svg");}
+// home页，tabs图标
+.tab-button[aria-selected=false] .ion-ios-indexIcon-outline:before { content: url("../assets/fonts/indexBlack.svg"); }
+.tab-button[aria-selected=false] .ion-ios-messageIcon-outline:before { content: url("../assets/fonts/messageBlack.svg"); }
+.tab-button[aria-selected=false] .ion-ios-publicIcon-outline:before { content: url("../assets/fonts/publicBlack.svg"); }
+.tab-button[aria-selected=false] .ion-ios-discoverIcon-outline:before { content: url("../assets/fonts/discoverBlack.svg"); }
+.tab-button[aria-selected=false] .ion-ios-mineIcon-outline:before { content: url("../assets/fonts/mineBlack.svg"); }
+
+.tab-button[aria-selected=true] .ion-ios-indexIcon-outline:before { content: url("../assets/fonts/indexYel.svg"); }
+.tab-button[aria-selected=true] .ion-ios-messageIcon-outline:before { content: url("../assets/fonts/messageYel.svg"); }
+.tab-button[aria-selected=true] .ion-ios-publicIcon-outline:before { content: url("../assets/fonts/publicYel.svg"); }
+.tab-button[aria-selected=true] .ion-ios-discoverIcon-outline:before { content: url("../assets/fonts/discoverYel.svg"); }
+.tab-button[aria-selected=true] .ion-ios-mineIcon-outline:before { content: url("../assets/fonts/mineYel.svg"); }
+
+// .tab-button[aria-selected=true] .ion-ios-myIcon-outline:before { content: url("../assets/fonts/
+
+    // $tabs-ios-tab-margin-top:5px;
+
+    
