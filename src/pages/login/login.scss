@@ -1,0 +1,72 @@
+page-login {
+    *{
+        font-family: '幼圆';
+    }
+    .toolbar-title{
+        font-weight: 300;
+        font-size: 1.9rem;
+    }
+    ion-content{
+        background-size: 100%;
+        background-image: url(../../assets/imgs/loginBanner.png);
+    }
+   //去除标题的下边框
+    .toolbar-background-ios{
+        border:none !important;
+    }
+    //去除ion-item下边框
+    .item-inner{
+        border:none !important;
+    }
+    
+    //logo
+    .login-logo{
+        width: 26rem;
+        height: 22rem;
+        margin: 0 auto;
+    }
+    .login-logo img{
+        width: 15rem;
+        margin-left: 5rem;
+        margin-bottom: 3rem;
+    }
+    .login-logo p{
+        text-align: center;
+    }
+    .login-form{
+        width: 35rem;
+        height: 28rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+        position: relative;
+    }
+    .login-form ion-list{
+        width: 32rem;
+        height: 28rem;
+        margin-left: 3rem;
+    }
+    .login-head{
+        position: absolute;
+        left: 2.8rem;
+        top: 0rem;
+    }
+    .login-pwd{
+        position: absolute;
+        left: 2.8rem;
+        top: 4rem;
+    }
+    .login-login{
+        border: 1px solid #fedb47;
+        width: 23rem;
+        height: 4rem !important;
+        border-radius: 5rem;
+    }
+    ion-list ion-item p{
+        padding-left: 9rem;
+    }
+    ion-input{
+        font-size: 1.4rem;
+        border-bottom:solid 1px white;
+    }
+
+}

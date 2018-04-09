@@ -1,4 +1,9 @@
 .ion-ios-discover:before { content: url("../assets/fonts/discover.svg");}
+.ion-ios-arrowLeft:before { content: url("../assets/fonts/arrowLeft.svg");}
+
+
+
+
 // home页，tabs图标
 .tab-button[aria-selected=false] .ion-ios-indexIcon-outline:before { content: url("../assets/fonts/indexBlack.svg"); }
 .tab-button[aria-selected=false] .ion-ios-messageIcon-outline:before { content: url("../assets/fonts/messageBlack.svg"); }
@@ -15,5 +20,9 @@
 // .tab-button[aria-selected=true] .ion-ios-myIcon-outline:before { content: url("../assets/fonts/
 
     // $tabs-ios-tab-margin-top:5px;
+
+    //login页
+    .ion-ios-loginHead:before { content: url("../assets/fonts/loginHead.svg");}
+.ion-ios-loginPwd:before { content: url("../assets/fonts/loginPwd.svg");}
 
     
