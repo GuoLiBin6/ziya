@@ -22,7 +22,7 @@ export class RegisterPage {
     console.log('ionViewDidLoad RegisterPage');
   }
   ionViewWillEnter(){
-    // this.navCtrl.setBackButtonText('');
+    // this.navCtrl.setBackButto nText('');
   }
 
 }
