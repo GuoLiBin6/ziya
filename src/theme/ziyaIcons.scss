@@ -17,12 +17,15 @@
 .tab-button[aria-selected=true] .ion-ios-discoverIcon-outline:before { content: url("../assets/fonts/discoverYel.svg"); }
 .tab-button[aria-selected=true] .ion-ios-mineIcon-outline:before { content: url("../assets/fonts/mineYel.svg"); }
 
-// .tab-button[aria-selected=true] .ion-ios-myIcon-outline:before { content: url("../assets/fonts/
 
-    // $tabs-ios-tab-margin-top:5px;
-
-    //login页
-    .ion-ios-loginHead:before { content: url("../assets/fonts/loginHead.svg");}
+ //login页
+.ion-ios-loginHead:before { content: url("../assets/fonts/loginHead.svg");}
 .ion-ios-loginPwd:before { content: url("../assets/fonts/loginPwd.svg");}
+
+//register页
+.ion-ios-registerPhone:before { content: url("../assets/fonts/registerPhone.svg");}
+.ion-ios-registerCheck:before { content: url("../assets/fonts/registerCheck.svg");}
+.ion-ios-registerPwd:before { content: url("../assets/fonts/registerPwd.svg");}
+
 
     
