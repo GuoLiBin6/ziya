@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { RegisterPage } from '../register/register';
+import { HomePage } from '../home/home';
+import { FindPwdPage } from '../find-pwd/find-pwd';
 
 /**
  * Generated class for the LoginPage page.
@@ -25,6 +27,12 @@ export class LoginPage {
   }
   goRegister(event){
     this.navCtrl.push(RegisterPage,{});
+  }
+  goIndex(event){
+    this.navCtrl.push(HomePage,{});
+  }
+  goFindPwd(){
+    this.navCtrl.push(FindPwdPage);
   }
 
 }

@@ -1,12 +1,14 @@
 <ion-header no-border>
   <ion-toolbar color="yel">
-    <button ion-button menuToggle="left">
+    <!-- <button ion-button menuToggle="left">
       <ion-icon name="ios-menu"></ion-icon>
-    </button>
-    <ion-title>
-      <img src="../../assets/imgs/ziya-logo.png" alt="">
+    </button> -->
+    <ion-title text-center>
+      <img src="assets/imgs/ziya-logo.png" alt="">
+      
     </ion-title>
-    <ion-icon name="ios-discover" class="header-icon" large></ion-icon>
+    <ion-icon name="discoverGray" class="header-icon" (click)="expendSearch()"></ion-icon>
+    <!-- <ion-input type="search" placeholder="请输入信息关键词" text-center></ion-input> -->
 
   </ion-toolbar>
 </ion-header>
@@ -26,7 +28,7 @@
     </ion-slide>
   </ion-slides>
   <ion-segment [(ngModel)]="icons" color="yel">
-    <ion-segment-button value="search-info" class="search-border">
+    <ion-segment-button value="search-info" class="segment-ac">
       找信息
     </ion-segment-button>
     <ion-segment-button value="search-serve">
@@ -149,15 +151,15 @@
 </ion-content>
 <ion-footer>
 
-    <ion-toolbar>
-      <ion-tabs>
-        <ion-tab tabIcon="ios-indexIcon-outline" [root]="tabRoot1" tabTitle="首页"></ion-tab>
-        <ion-tab tabIcon="ios-publicIcon-outline" [root]="tabRoot1" tabTitle="发布"></ion-tab>
-        <ion-tab tabIcon="ios-discoverIcon-outline" [root]="tabRoot1" tabTitle="查看"></ion-tab>
-        <ion-tab tabIcon="ios-messageIcon-outline" [root]="tabRoot1" tabTitle="消息"></ion-tab>
-        <ion-tab tabIcon="ios-mineIcon-outline" [root]="tabRoot1" tabTitle="我的"></ion-tab>
-        
-      </ion-tabs>
-    </ion-toolbar>
+  <ion-toolbar>
+    <ion-tabs>
+      <ion-tab tabIcon="md-indexIcon-outline" [root]="tabRoot1" tabTitle="首页"></ion-tab>
+      <ion-tab tabIcon="md-publicIcon-outline" [root]="tabRoot1" tabTitle="发布"></ion-tab>
+      <ion-tab tabIcon="md-discoverIcon-outline" [root]="tabRoot1" tabTitle="查看"></ion-tab>
+      <ion-tab tabIcon="md-messageIcon-outline" [root]="tabRoot1" tabTitle="消息"></ion-tab>
+      <ion-tab tabIcon="md-mineIcon-outline" [root]="tabRoot1" tabTitle="我的"></ion-tab>
+
+    </ion-tabs>
+  </ion-toolbar>
 
 </ion-footer>

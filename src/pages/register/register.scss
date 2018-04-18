@@ -9,6 +9,10 @@ page-register {
         color: white;
         text-decoration: none;
     }
+    ion-title{
+        width: 32rem;
+        float: right;
+    }
     ion-content{
         background-size: 100%;
         background-image: url(../../assets/imgs/loginBanner.png);
@@ -29,10 +33,10 @@ page-register {
     ion-input{
         border-bottom: 1px solid white;
         color: white;
-        font-size: 1.7rem!important;
+        font-size: 1.4rem!important;
     }
-    .text-input-ios{
-        margin-bottom: 3px!important;
+    .text-input-md{
+        margin: 8px 5px!important;
     }
     
     .register-icon{
@@ -52,5 +56,9 @@ page-register {
         padding-top: 6px;
         background-color: #fedb47;
         border-radius: 3px;
+    }
+    a:hover{
+        cursor: pointer;
+        color: #fedb47;
     }
 }

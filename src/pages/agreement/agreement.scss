@@ -1,0 +1,20 @@
+page-agreement {
+    *{
+        font-family: '幼圆';
+    }
+    .toolbar-title{
+        font-weight: 400;
+        font-size: 1.9rem;
+       
+    }
+    ion-title{
+        width: 32rem;
+        float: right;
+    }
+    p{
+        line-height: 3rem;
+    }
+    .agree-title{
+        font-size: 2rem;
+    }
+}

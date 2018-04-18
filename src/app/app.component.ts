@@ -7,6 +7,8 @@ import { ListPage } from '../pages/list/list';
 import { HomePage } from '../pages/home/home';
 import { LoginPage} from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { AgreementPage } from '../pages/agreement/agreement';
+import { FindPwdPage } from '../pages/find-pwd/find-pwd';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';

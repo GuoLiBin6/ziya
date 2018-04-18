@@ -2,6 +2,10 @@ page-login {
     *{
         font-family: '幼圆';
     }
+    ion-title{
+        width: 32rem;
+        float: right;
+    }
     .toolbar-title{
         font-weight: 300;
         font-size: 1.9rem;
@@ -10,10 +14,7 @@ page-login {
         background-size: 100%;
         background-image: url(../../assets/imgs/loginBanner.png);
     }
-   //去除标题的下边框
-    .toolbar-background-ios{
-        border:none !important;
-    }
+   
     //去除ion-item下边框
     .item-inner{
         border:none !important;
@@ -47,13 +48,13 @@ page-login {
     }
     .login-head{
         position: absolute;
-        left: 2.8rem;
-        top: 0rem;
+        left: 3.5rem;
+        top: 0.5rem;
     }
     .login-pwd{
         position: absolute;
-        left: 2.8rem;
-        top: 4rem;
+        left: 3.5rem;
+        top: 4.8rem;
     }
     .login-login{
         border: 1px solid #fedb47;
@@ -68,5 +69,11 @@ page-login {
         font-size: 1.4rem;
         border-bottom:solid 1px white;
     }
-
+    .text-input-md{
+        margin: 8px 5px !important;
+    }
+    .forget-pwd:hover{
+        cursor: pointer;
+        color: #fedb47;
+    }
 }

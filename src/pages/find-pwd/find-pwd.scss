@@ -1,0 +1,60 @@
+page-find-pwd {
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: '幼圆';
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    ion-content{
+        background-size: 100%;
+        background-image: url(../../assets/imgs/loginBanner.png);
+    }
+    .toolbar-title{
+        font-weight: 300;
+        font-size: 1.9rem;
+    }
+    ion-grid{
+        width: 33rem !important;
+        height: 52rem;
+        margin: 0 auto !important;
+        margin-top: 5rem !important;
+    }
+    ion-row{
+        height: 7rem;
+    }
+    ion-input{
+        border-bottom: 1px solid white;
+        color: white;
+        font-size: 1.7rem!important;
+    }
+    .text-input-ios{
+        margin-bottom: 3px!important;
+    }
+    
+    .register-icon{
+        margin-top: 1rem;
+    }
+    .get-check{
+        display: inline-block;
+        padding: 1rem;
+        background-color: #fedb47;
+        border-radius: 5px;
+    }
+    .registerBtn{
+        width: 100%;
+        border-radius: 5rem;
+    }
+    .register-radio{
+        padding-top: 6px;
+        background-color: #fedb47;
+        border-radius: 3px;
+    }
+    a:hover{
+        cursor: pointer;
+        color: #fedb47;
+    }
+}

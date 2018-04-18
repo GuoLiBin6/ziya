@@ -4,21 +4,59 @@ page-home {
         padding: 0!important;
         text-decoration: none!important;
     }
-   
+   //header样式
+   ion-header{
+       position: relative;
+   }
     ion-title img{
+        // float: left;
         width: 9rem;
     }
+    
     .header-icon{
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+        // padding: 10px!important;
+    }
+    //header展开搜索框样式
+    .title-left{
+        width: 11rem;
+        float: left;
+        text-align: center; 
+    }
+    ion-toolbar ion-input{
+        width: 27rem;
         float: right;
-        padding: 10px!important;
+        background-color: #fff;
+        border-radius: 5rem;
+        height: 3.2rem;
+        margin-right: 0.8rem!important;
+        line-height: 3.2rem;
+        font-size: 1.4rem;
+        // text-indent: 3rem;
+    }
+    .header-icon-left{
+        position: absolute;
+        top: 1rem;
+        left: 14.1rem;
+        z-index: 2;
+    }
+    //ocntent
+    ion-content{
+        margin-top: 4rem!important;
     }
     ion-slides{
         height: auto;
     }
     .segment-button{
         color: #fedb47;
-        border:none !important;
+        // border:none !important;
     }
+    .segment-ac{
+        border-bottom: 5px solid #fedb47 ;
+    }
+   
     // .search-border{
     //     background-color: #fedb47!important;
     //     color: black!important;
@@ -139,9 +177,7 @@ page-home {
     //     margin-top: 5px!important;
         
     // }
-    ion-tabs{
-        // margin-top: 3px!important;
-    }
+    
     .shouye-on{
         background: url(../../assets/imgs/icon-index-black.png) no-repeat center top;
     }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { AgreementPage } from '../agreement/agreement';
 
 /**
  * Generated class for the RegisterPage page.
@@ -21,8 +22,11 @@ export class RegisterPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegisterPage');
   }
-  ionViewWillEnter(){
-    // this.navCtrl.setBackButto nText('');
+ 
+  goBack(event){
+    this.navCtrl.pop();
   }
-
+  goAgreement(event){
+    this.navCtrl.push(AgreementPage,{});
+  }
 }
