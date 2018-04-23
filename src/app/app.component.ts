@@ -9,6 +9,13 @@ import { LoginPage} from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { AgreementPage } from '../pages/agreement/agreement';
 import { FindPwdPage } from '../pages/find-pwd/find-pwd';
+import { PublishPage } from '../pages/publish/publish';
+import { TabsPage } from '../pages/tabs/tabs';
+import { PublishInfoPage } from '../pages/publish-info/publish-info';
+import { MinePage } from '../pages/mine/mine';
+import { SettingPage } from '../pages/setting/setting';
+import { MessagePage } from '../pages/message/message';
+import { MessageInfoPage } from '../pages/message-info/message-info';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,7 +28,9 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make HelloIonicPage the root (or first) page
-  rootPage = LoginPage;
+  rootPage = TabsPage;
+ 
+  
   pages: Array<{title: string, component: any}>;
 
   constructor(

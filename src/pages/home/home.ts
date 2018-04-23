@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ItemDetailsPage } from '../item-details/item-details';
 import { HelloIonicPage } from '../hello-ionic/hello-ionic';
+import { PublishPage } from '../publish/publish';
 // import { Camera, CameraOptions } from '@ionic-native/camera';
 
 
@@ -22,8 +23,8 @@ import { HelloIonicPage } from '../hello-ionic/hello-ionic';
 })
 export class HomePage {
   items = [];
-  tabRoot1=ItemDetailsPage;
-  tabRoot2=HelloIonicPage;
+  tabRoot1=HomePage;
+  tabRoot2=PublishPage;
   
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     // this.tab1=ItemDetailsPage;

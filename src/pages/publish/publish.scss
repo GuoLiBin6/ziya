@@ -1,0 +1,34 @@
+page-publish {
+   
+    //header
+    .toolbar-title-md {
+        
+        font-size: 1.8rem;
+        font-weight: 300;
+        
+    }
+    ion-col{
+        // background-color: red;
+        text-align: center;
+    }
+    ion-item{
+        margin-left: 1rem!important;
+        width: 9rem !important;
+        background: none !important;
+        border: solid 1px ghostwhite;
+        padding: 0 !important;
+    }
+    .label-md {
+        margin: 13px 0 13px 0;
+    }
+    ion-item p{
+        width: 9rem;
+        font-size: 1.4rem;
+        text-align: center!important;
+    }
+    ion-item img{
+        width: 4rem;
+        margin-left: 2.5rem;
+    }
+    
+}

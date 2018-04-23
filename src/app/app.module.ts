@@ -11,7 +11,13 @@ import { LoginPage } from '../pages/login/login';
 import { RegisterPage} from '../pages/register/register';
 import { AgreementPage } from '../pages/agreement/agreement';
 import { FindPwdPage } from '../pages/find-pwd/find-pwd';
-
+import { PublishPage } from '../pages/publish/publish';
+import { TabsPage } from '../pages/tabs/tabs';
+import { PublishInfoPage } from '../pages/publish-info/publish-info';
+import { MinePage } from '../pages/mine/mine';
+import { SettingPage } from '../pages/setting/setting';
+import { MessagePage } from '../pages/message/message';
+import { MessageInfoPage } from '../pages/message-info/message-info';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -26,11 +32,20 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     RegisterPage,
     AgreementPage,
-    FindPwdPage
+    FindPwdPage,
+    PublishPage,
+    TabsPage,
+    PublishInfoPage,
+    MinePage,
+    SettingPage,
+    MessagePage,
+    MessageInfoPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp,{
+      tabsHideOnSubPages:true
+    }),
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -42,7 +57,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     LoginPage,
     RegisterPage,
     AgreementPage,
-    FindPwdPage
+    FindPwdPage,
+    PublishPage,
+    TabsPage,
+    PublishInfoPage,
+    MinePage,
+    SettingPage,
+    MessagePage,
+    MessageInfoPage
   ],
   providers: [
     StatusBar,

@@ -1,11 +1,7 @@
 <ion-header no-border>
   <ion-toolbar color="yel">
-    <!-- <button ion-button menuToggle="left">
-      <ion-icon name="ios-menu"></ion-icon>
-    </button> -->
     <ion-title text-center>
       <img src="assets/imgs/ziya-logo.png" alt="">
-      
     </ion-title>
     <ion-icon name="discoverGray" class="header-icon" (click)="expendSearch()"></ion-icon>
     <!-- <ion-input type="search" placeholder="请输入信息关键词" text-center></ion-input> -->
@@ -28,7 +24,7 @@
     </ion-slide>
   </ion-slides>
   <ion-segment [(ngModel)]="icons" color="yel">
-    <ion-segment-button value="search-info" class="segment-ac">
+    <ion-segment-button value="search-info" class="segment-acl">
       找信息
     </ion-segment-button>
     <ion-segment-button value="search-serve">
@@ -95,8 +91,8 @@
   </div>
   <div [ngSwitch]="icons">
     <ion-list *ngSwitchCase="'search-serve'">
-      <ion-item>
-        b
+      <ion-item id="aa">
+        <a href="#">b</a>
       </ion-item>
       <ion-item>
         b
@@ -149,17 +145,16 @@
 
 
 </ion-content>
-<ion-footer>
+<!-- <ion-footer>
 
   <ion-toolbar>
     <ion-tabs>
-      <ion-tab tabIcon="md-indexIcon-outline" [root]="tabRoot1" tabTitle="首页"></ion-tab>
-      <ion-tab tabIcon="md-publicIcon-outline" [root]="tabRoot1" tabTitle="发布"></ion-tab>
-      <ion-tab tabIcon="md-discoverIcon-outline" [root]="tabRoot1" tabTitle="查看"></ion-tab>
-      <ion-tab tabIcon="md-messageIcon-outline" [root]="tabRoot1" tabTitle="消息"></ion-tab>
-      <ion-tab tabIcon="md-mineIcon-outline" [root]="tabRoot1" tabTitle="我的"></ion-tab>
+      <ion-tab tabIcon="md-indexIcon-outline" [root]="tabRoot2" tabTitle="首页"></ion-tab>
+      <ion-tab tabIcon="md-publicIcon-outline" [root]="tabRoot2" tabTitle="发布"></ion-tab>
+      <ion-tab tabIcon="md-messageIcon-outline" [root]="tabRoot2" tabTitle="消息"></ion-tab>
+      <ion-tab tabIcon="md-mineIcon-outline" [root]="tabRoot2" tabTitle="我的"></ion-tab>
 
     </ion-tabs>
   </ion-toolbar>
 
-</ion-footer>
+</ion-footer> -->

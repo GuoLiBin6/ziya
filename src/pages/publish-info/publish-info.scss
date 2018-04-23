@@ -1,0 +1,31 @@
+page-publish-info {
+    ion-toolbar ion-icon{
+        position: absolute;
+        left: 0;
+        top: 1.5rem;
+    }
+    ion-row{
+        border-bottom: solid #cccccc 1px;
+
+    }
+    .rowLighter{
+        height: 5rem;
+        line-height: 5rem;
+    }
+    .leftWordGray{
+        color: #cccccc;
+        padding-left: 1rem!important;
+    }
+    .arrowRightIcon{
+        margin: 0.5rem 0 0 0 ;
+    }
+    .bgGray{
+        background-color: #f9f9f9;
+    }
+    button{
+        margin-top: 2rem !important;
+        width: 80%;
+        margin-left: 10% !important;
+    }
+    
+}

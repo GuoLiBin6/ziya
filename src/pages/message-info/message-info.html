@@ -1,0 +1,48 @@
+<!--
+  Generated template for the MessageInfoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header no-border>
+  <ion-navbar color="yel">
+    <ion-title text-center>{{obj.title}}</ion-title>
+    <ion-icon name="arrowLeftBlack" (click)="goBack()"></ion-icon>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-item class="left" no-lines>
+    <ion-icon><img src={{obj.imgURL}} alt=""></ion-icon>
+    <p>今天天气很好</p>
+  </ion-item>
+  <ion-item class="right" no-lines>
+    <p>恩，是啊</p>
+      <ion-icon><img src={{obj.imgURL}} alt=""></ion-icon>
+    </ion-item>
+    <ion-item no-lines class="bottom">
+<ion-grid no-padding>
+  <ion-row>
+    <ion-col col2>
+      <ion-icon name="yuyin2"></ion-icon>
+    </ion-col>
+    <ion-col col-7>
+      <!-- <ion-input placeholder="a"></ion-input> -->
+      <!-- <ion-textarea type="text" placeholder="请输入内容" cols='10' rows='1'></ion-textarea> -->
+      请输入内容
+    </ion-col>
+    <ion-col col2>
+        <ion-icon name="face"></ion-icon>
+      </ion-col>
+      <ion-col col-1>
+          <ion-icon name="add"></ion-icon>
+        </ion-col>
+  </ion-row>
+</ion-grid>
+      
+      
+    </ion-item>
+</ion-content>
+

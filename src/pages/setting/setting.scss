@@ -1,0 +1,14 @@
+page-setting {
+    ion-toolbar ion-icon{
+        position: absolute;
+        left: 0;
+        top: 1.5rem;
+    }
+    ion-item ion-label{
+        padding-left: 2rem;
+    }
+    button{
+        width: 80%;
+        margin: 3rem 10%!important;
+    }
+}

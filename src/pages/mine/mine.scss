@@ -1,0 +1,61 @@
+page-mine {
+    ion-toolbar ion-icon{
+        position: absolute;
+        left: 0;
+        top: 1.5rem;
+    }
+    .mineTop{
+        padding: 5px !important;
+    }
+    .head{
+        // background-color: lightblue;
+        text-align: center;
+    }
+    .head img{
+        width: 6rem;
+        border-radius: 50%;
+    }
+    .head p{
+        margin:0 !important;
+    }
+    .head .name{
+        font-size: 1.8rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+    .head .place{
+        color: #cccccc;
+        font-size: 1rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .head .belong{
+        color: #999999;
+        font-size: 1.3rem;
+    }
+    .edit{
+        font-size: 1.1rem;
+        color: #fedb47;
+        border: solid 1px #fedb47;
+        border-radius: 2rem;
+        padding: 3px 10px;
+        float: right;
+    }
+    //content
+    .contentItem{
+        border-top: 1px solid #cccccc;
+    }
+    .contentItem ion-col img{
+        width: 3rem;;
+       margin: 0.5rem 2rem 0.5rem 1.5rem;
+    }
+    .itemTitle{
+        font-size: 1.7rem;
+        height: 4rem;
+        line-height: 4rem;
+        margin-top: 1rem !important;
+    }
+    .contentItem ion-col ion-icon{
+        margin-top: 0.5rem;
+    }
+}

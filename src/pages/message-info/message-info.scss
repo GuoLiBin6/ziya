@@ -1,0 +1,61 @@
+page-message-info {
+    .back-button{
+        display: none!important;
+    }
+    ion-navbar ion-icon{
+        position: absolute;
+        top: 1.5rem;
+        left: 0;
+    }
+    
+    ion-item img{
+        width: 3rem;
+        border-radius: 50%;
+    }
+    .left p{
+        
+        background-color: lightblue;
+        padding: 5px;
+        border-radius:20px 0 0 20px;
+        display: inline-block;
+    }
+    .right p{
+        
+        background-color: lightgoldenrodyellow;
+        padding: 5px;
+        border-radius:0 20px 20px 0;
+        display: inline-block;
+        position: absolute;
+        right: 50px;
+        top: 0;
+    }
+    .right img{
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+    .bottom{
+        border-top: 1px solid #cccccc !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;;
+    }
+    .bottom ion-input{
+        width: 5rem!important;
+        // background-color: #fec;
+    }
+    .bottom .input{
+        display: inline-block;
+        background-color: #fec;
+        text-indent: 3rem;
+    }
+    ion-icon[name="face"]{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    ion-col{
+        color: gray;
+    }
+}

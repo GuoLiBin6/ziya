@@ -48,6 +48,7 @@ page-home {
     }
     ion-slides{
         height: auto;
+        margin-top: 1rem!important;
     }
     .segment-button{
         color: #fedb47;
@@ -184,5 +185,16 @@ page-home {
     .shouye-off{
         background: url(../../assets/imgs/icon-index-black.png) no-repeat center top;
     }
+
+    // #aa{
+    //     text-align: left;
+    //     transition: all 5s ease;
+    // }
+    // #aa:target{
+    //     text-align: center;
+    // }
+    // #aa:active{
+    //     text-align: center;
+    // }
 
 }
