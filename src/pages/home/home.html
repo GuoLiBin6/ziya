@@ -1,12 +1,12 @@
 <ion-header no-border>
-  <ion-toolbar color="yel">
+  <ion-navbar color="yel">
     <ion-title text-center>
       <img src="assets/imgs/ziya-logo.png" alt="">
     </ion-title>
     <ion-icon name="discoverGray" class="header-icon" (click)="expendSearch()"></ion-icon>
     <!-- <ion-input type="search" placeholder="请输入信息关键词" text-center></ion-input> -->
 
-  </ion-toolbar>
+  </ion-navbar>
 </ion-header>
 
 
@@ -14,13 +14,13 @@
 
   <ion-slides>
     <ion-slide>
-      <img src="../../assets/imgs/slide1.jpg" alt="">
+      <img src="assets/imgs/slide1.jpg" alt="">
     </ion-slide>
     <ion-slide>
-      <img src="../../assets/imgs/slide1.jpg" alt="">
+      <img src="assets/imgs/slide1.jpg" alt="">
     </ion-slide>
     <ion-slide>
-      <img src="../../assets/imgs/slide1.jpg" alt="">
+      <img src="assets/imgs/slide1.jpg" alt="">
     </ion-slide>
   </ion-slides>
   <ion-segment [(ngModel)]="icons" color="yel">
@@ -36,72 +36,119 @@
   <div class="search-grid" [ngSwitch]="icons">
     <ion-grid *ngSwitchCase="'search-info'">
       <ion-row>
-        <ion-col ion-3>
+        <ion-col col-3>
           <ion-item no-lines>
-            <img src="../../assets/imgs/homeSearch1.png" alt="">
+            <img src="assets/imgs/homeSearch1.png" alt="">
             <p>资产包转让</p>
           </ion-item>
         </ion-col>
-        <ion-col ion-3>
+        <ion-col col-3>
           <ion-item no-lines>
-            <img src="../../assets/imgs/homeSearch2.png" alt="">
+            <img src="assets/imgs/homeSearch2.png" alt="">
             <p>股权转让</p>
           </ion-item>
         </ion-col>
-        <ion-col ion-3>
+        <ion-col col-3>
           <ion-item no-lines>
-            <img src="../../assets/imgs/homeSearch3.png" alt="">
+            <img src="assets/imgs/homeSearch3.png" alt="">
             <p>固产转让</p>
           </ion-item>
         </ion-col>
-        <ion-col ion-3>
+        <ion-col col-3>
           <ion-item no-lines>
-            <img src="../../assets/imgs/homeSearch4.png" alt="">
+            <img src="assets/imgs/homeSearch4.png" alt="">
             <p>商业保理</p>
           </ion-item>
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col ion-3>
+        <ion-col col-3>
           <ion-item no-lines>
-            <img src="../../assets/imgs/homeSearch5.png" alt="">
+            <img src="assets/imgs/homeSearch5.png" alt="">
             <p>典当担当</p>
           </ion-item>
         </ion-col>
-        <ion-col ion-3>
+        <ion-col col-3>
           <ion-item no-lines>
-            <img src="../../assets/imgs/homeSearch6.png" alt="">
+            <img src="assets/imgs/homeSearch6.png" alt="">
             <p>融资借贷</p>
           </ion-item>
         </ion-col>
-        <ion-col ion-3>
+        <ion-col col-3>
           <ion-item no-lines>
-            <img src="../../assets/imgs/homeSearch7.png" alt="">
+            <img src="assets/imgs/homeSearch7.png" alt="">
             <p>悬赏信息</p>
           </ion-item>
         </ion-col>
-        <ion-col ion-3>
+        <ion-col col-3>
           <ion-item no-lines>
-            <img src="../../assets/imgs/homeSearch8.png" alt="">
+            <img src="assets/imgs/homeSearch8.png" alt="">
             <p>尽职调查</p>
           </ion-item>
         </ion-col>
       </ion-row>
     </ion-grid>
   </div>
-  <div [ngSwitch]="icons">
-    <ion-list *ngSwitchCase="'search-serve'">
-      <ion-item id="aa">
-        <a href="#">b</a>
-      </ion-item>
-      <ion-item>
-        b
-      </ion-item>
-    </ion-list>
+  
+  <div class="search-grid" [ngSwitch]="icons">
+    <ion-grid *ngSwitchCase="'search-serve'">
+      <ion-row>
+        <ion-col col-3>
+          <ion-item no-lines>
+            <img src="assets/imgs/homeSearch1.png" alt="">
+            <p>资产包收购</p>
+          </ion-item>
+        </ion-col>
+        <ion-col col-3>
+          <ion-item no-lines>
+            <img src="assets/imgs/homeSearch2.png" alt="">
+            <p>股权转让</p>
+          </ion-item>
+        </ion-col>
+        <ion-col col-3>
+          <ion-item no-lines>
+            <img src="assets/imgs/homeSearch3.png" alt="">
+            <p>固产收购</p>
+          </ion-item>
+        </ion-col>
+        <ion-col col-3>
+          <ion-item no-lines>
+            <img src="assets/imgs/homeSearch4.png" alt="">
+            <p>保理公司</p>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-3>
+          <ion-item no-lines>
+            <img src="assets/imgs/homeSearch5.png" alt="">
+            <p>典当担当</p>
+          </ion-item>
+        </ion-col>
+        <ion-col col-3>
+          <ion-item no-lines>
+            <img src="assets/imgs/homeSearch6.png" alt="">
+            <p>借贷服务</p>
+          </ion-item>
+        </ion-col>
+        <ion-col col-3>
+          <ion-item no-lines>
+            <img src="assets/imgs/homeSearch7.png" alt="">
+            <p>悬赏信息</p>
+          </ion-item>
+        </ion-col>
+        <ion-col col-3>
+          <ion-item no-lines>
+            <img src="assets/imgs/homeSearch8.png" alt="">
+            <p>尽职调查</p>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
   <div class="gray-bgco"></div>
   <div class="great-info">
-    <img src="../../assets/imgs/greatInfo.png" alt="">
+    <img src="assets/imgs/greatInfo.png" alt="">
     <span>优质信息</span>
   </div>
 
@@ -132,7 +179,7 @@
           <li class="apt-item1-gray">{{item.proportion}}</li>
         </div>
         <div class="apt-item4">
-          <img src="../../assets/imgs/triangle-right.png" alt="">
+          <img src="assets/imgs/triangle-right.png" alt="">
         </div>
       </div>
       <div class="gray-bgco"></div>

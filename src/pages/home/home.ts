@@ -29,10 +29,10 @@ export class HomePage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     // this.tab1=ItemDetailsPage;
     // this.tab2=HelloIonicPage;
-    for(let i=0;i<8;i++){
+    for(let i=0;i<5;i++){
       var obj = {
         'title':"资产包转让",
-        'imgURL':'../../assets/imgs/apt.png',
+        'imgURL':'assets/imgs/apt.png',
         'place':'地区:',
         'placeVal':'北京',
         'source':'来源',
@@ -62,7 +62,7 @@ export class HomePage {
       for(let i=0;i<8;i++){
         this.items.push({
           'title':"资产包转让",
-          'imgURL':'../../assets/imgs/apt.png',
+          'imgURL':'assets/imgs/apt.png',
           'place':'地区:',
           'placeVal':'北京',
           'source':'来源',
@@ -75,9 +75,11 @@ export class HomePage {
           'proVal':'30%-50%'
   
         });
+        
       }
       infiniteScroll.complete();
-    },1000);
+      
+    },3000);
     
   }
   //搜索框

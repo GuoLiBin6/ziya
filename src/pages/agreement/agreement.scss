@@ -2,15 +2,17 @@ page-agreement {
     *{
         font-family: '幼圆';
     }
+    ion-toolbar ion-icon{
+        position: absolute;
+        left: 0;
+        top: 1.5rem;
+    }
     .toolbar-title{
         font-weight: 400;
         font-size: 1.9rem;
        
     }
-    ion-title{
-        width: 32rem;
-        float: right;
-    }
+    
     p{
         line-height: 3rem;
     }

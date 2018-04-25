@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { App,IonicPage, NavController, NavParams } from 'ionic-angular';
+import { LoginPage } from '../login/login';
 
 /**
  * Generated class for the SettingPage page.
@@ -15,7 +16,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class SettingPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,public app:App) {
   }
 
   ionViewDidLoad() {
@@ -23,5 +24,9 @@ export class SettingPage {
   }
   goBack(){
     this.navCtrl.pop();
+  }
+  layout(){
+    this.navCtrl.push(LoginPage,{});
+    this.app.getRootNavs()[0].setRoot(LoginPage);
   }
 }

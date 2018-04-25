@@ -12,7 +12,7 @@ page-login {
     }
     ion-content{
         background-size: 100%;
-        background-image: url(../../assets/imgs/loginBanner.png);
+        background-image: url(../assets/imgs/loginBanner.png);
     }
    
     //去除ion-item下边框
@@ -28,7 +28,7 @@ page-login {
     }
     .login-logo img{
         width: 15rem;
-        margin-left: 5rem;
+        margin-left: 4rem;
         margin-bottom: 3rem;
     }
     .login-logo p{
@@ -44,16 +44,16 @@ page-login {
     .login-form ion-list{
         width: 32rem;
         height: 28rem;
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
     .login-head{
         position: absolute;
-        left: 3.5rem;
+        left: 2.5rem;
         top: 0.5rem;
     }
     .login-pwd{
         position: absolute;
-        left: 3.5rem;
+        left: 2.5rem;
         top: 4.8rem;
     }
     .login-login{

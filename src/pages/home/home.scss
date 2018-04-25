@@ -5,9 +5,7 @@ page-home {
         text-decoration: none!important;
     }
    //header样式
-   ion-header{
-       position: relative;
-   }
+   
     ion-title img{
         // float: left;
         width: 9rem;
@@ -17,7 +15,6 @@ page-home {
         position: absolute;
         top: 2rem;
         right: 1rem;
-        // padding: 10px!important;
     }
     //header展开搜索框样式
     .title-left{
@@ -52,18 +49,17 @@ page-home {
     }
     .segment-button{
         color: #fedb47;
-        // border:none !important;
     }
     .segment-ac{
         border-bottom: 5px solid #fedb47 ;
     }
    
-    // .search-border{
-    //     background-color: #fedb47!important;
-    //     color: black!important;
-    // }
+    
     .search-grid{
         margin-top: 5px!important;
+    }
+    .grid-pdding{
+        padding-bottom: 5px!important;
     }
     .search-grid ion-item{
         text-align: center;
@@ -131,28 +127,28 @@ page-home {
         width: 10rem;
         height: 5rem;
         position: absolute;
-        left: 8rem;
+        left: 22%;
         top: 1rem;
     }
     .apt-item2{
         width: 8rem;
         height: 5rem;
         position: absolute;;
-        left: 18rem;
+        left: 45%;
         top:1rem;
     }
     .apt-item3{
         width: 10rem;
         height: 5rem;
         position: absolute;;
-        left: 26rem;
+        left: 58%;
         top:1rem;
     }
     .apt-item4{
         width: 5rem;
         height: 5rem;
         position: absolute;;
-        left: 36rem;
+        left: 85%;
         top:1rem;
     }
     .apt-item1 li{
